@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Oswald, sans-serif;
+  font-family: Karma;
   line-height: 1.5;
 }
 
@@ -19,6 +19,7 @@ body {
 }
 
 h2 {
+  font-family: Oswald, sans-serif;
   font-size: 2rem;
   color: #987ffa;
   text-align: center;
@@ -61,7 +62,6 @@ ul {
 
 li {
   list-style: none;
-  justify-content:space-around;
   padding: 0rem;
 }
 
