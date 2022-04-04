@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   line-height: 1.5;
 }
 
@@ -9,12 +9,12 @@ html {
 }
 
 body {
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 #mainimages {
-  width: 100%;
-  padding: 0 1rem;
+  align-items: center;
+  max-width: 15em;
 }
 
 h2 {
@@ -22,11 +22,12 @@ h2 {
   color: #987ffa;
   text-align: center;
   margin: 0;
+  font-weight: bold;
 }
 
 p {
   font-family: "Karma";
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: #000;
   text-align: center;
   margin: 0 .5em 1.5em .7em;
