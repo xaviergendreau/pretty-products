@@ -1,7 +1,76 @@
 html {
   box-sizing: border-box;
+  font-family: "Oswald";
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 1.5rem;
+}
+
+#mainimages {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #987ffa;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-family: "Karma";
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  margin: 0 .5em 1.5em .7em;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+  justify-content:space-around;
+  display: flex;
+  padding: 0rem;
+}
+
+span {
+  background-color: #6f00e7;
+  border: none;
+  color: white;
+  padding: .5em 1.5em .7em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3em;
 }
