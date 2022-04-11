@@ -12,7 +12,7 @@ body {
   margin: 1rem;
 }
 
-#mainimages {
+.mainimages {
   align-items: center;
   max-width: 15em;
   margin-bottom: 1.5rem;
